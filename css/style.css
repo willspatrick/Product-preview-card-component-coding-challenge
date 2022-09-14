@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  background-color: #F3EAE3;
+  font-family: 'Fraunces', serif;
+}
+
+
+#main-container {
+  width: 40%;
+  height: 400px;
+  margin: 100px auto;
+}
+
+.img-container {
+  width: 48%;
+  /* background-color: red; */
+  height: 420px;
+  display: inline-block;
+}
+
+p {
+  color: #6c7289;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 25px;
+}
+
+img {
+  width: 100%;
+  height: 420px;
+  border-radius: 10px 0 0 10px;
+}
+
+.text-container {
+  width: 52%;
+  background-color: #ffffff;
+  height: 420px;
+  float: right;
+  border-radius: 0 10px 10px 0;
+}
+
+.perf {
+  margin-top: 25px;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+}
+
+.heading {
+  color: #1c232b;
+  font-size: 1.5rem;
+  padding: 0 25px 0;
+  margin-right: 25px;
+  line-height: 1.4rem;
+}
+
+.main-p {
+    line-height: 1.15rem;
+}
+
+.amount-container {
+  padding: 7px 25px;
+  margin-bottom: 5px;
+}
+
+.num-head {
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 50%;
+  color: #3c8067;
+  margin-top: 0;
+}
+
+.number-p-container {
+  width: 50%;
+  float: right;
+
+}
+
+.num-p {
+  color: #6c7289;
+  text-decoration: line-through;
+  font-size: 12.5px;
+  margin-top: 7.5px;
+}
+
+.btn {
+  background: #3c8067;
+  background-image: -webkit-linear-gradient(top, #3c8067, #3c8067);
+  background-image: -moz-linear-gradient(top, #3c8067, #3c8067);
+  background-image: -ms-linear-gradient(top, #3c8067, #3c8067);
+  background-image: -o-linear-gradient(top, #3c8067, #3c8067);
+  background-image: linear-gradient(to bottom, #3c8067, #3c8067);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 13px;
+  margin: 0 25px 0;
+  /* width: 100px;
+  height: 100px; */
+  padding: 15px 70px 15px 70px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+}
+
+.btn:hover {
+  background: #1e5741;
+  background-image: -webkit-linear-gradient(top, #1e5741, #144531);
+  background-image: -moz-linear-gradient(top, #1e5741, #144531);
+  background-image: -ms-linear-gradient(top, #1e5741, #144531);
+  background-image: -o-linear-gradient(top, #1e5741, #144531);
+  background-image: linear-gradient(to bottom, #1e5741, #144531);
+  text-decoration: none;
+}
+
+
+.fas{
+    position: relative;
+    right: 10px;
+  }
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #3c8067;
+  font-size: 1rem;
+}
+
+
+
+/* input {
+  background-color: yellow;
+} */
